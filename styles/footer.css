@@ -1,0 +1,46 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #070211;
+  width: 100%;
+  height: 600px;
+}
+.contact,
+.end,
+.icons {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.address {
+  margin-right: 900px;
+}
+.links {
+  margin-left: 900px;
+}
+.contact {
+  margin-bottom: 5px solid rgba(255, 255, 255, 0.15);
+}
+.p1end {
+  margin-right: 560px;
+}
+.p2end {
+  margin-left: 490px;
+}
+.commonP {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.icons img {
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
