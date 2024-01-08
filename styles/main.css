@@ -90,3 +90,62 @@ main {
   line-height: normal;
   margin-top: 0;
 }
+
+/* Party Section */
+
+.party {
+  margin-top: 14rem;
+  background-image: url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.368);
+  border-radius: 1rem;
+  max-width: 100%;
+  max-height: 0px;
+  padding: 326px 550px 260px 126px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items:start;
+  flex-direction: column;
+  justify-content: center;
+}
+.h1party {
+  text-align: left;
+  margin: 0;
+  width: 642px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+.pParty {
+  text-align: left;
+  color: white;
+  width: 697px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.primaryBtn {
+  color: aliceblue;
+  background-color: #fd6f0a00;
+  border: 3px solid #fd6e0a;
+  border-radius: 0.7rem;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.primaryBtn:hover {
+  color: aliceblue;
+  background-color: #fd6f0a;
+  border: 5px solid #ffffff;
+  border-radius: 0.7rem;
+  font-size: 21px;
+  font-weight: 700;
+  padding: 17px 37px;
+}
