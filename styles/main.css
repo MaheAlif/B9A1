@@ -1,7 +1,11 @@
 main {
   max-width: 1320px;
   margin: 100px auto;
+  justify-content: space-evenly;
 }
+
+/* Poster Section */
+
 .poster {
   background-image: url("../resources/Banner\ Image.png");
   background-repeat: no-repeat;
@@ -16,8 +20,9 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 50px;
 }
-h1 {
+.h1poster {
   text-align: center;
   color: rgb(255, 255, 255);
   color: #fff;
@@ -28,7 +33,7 @@ h1 {
   line-height: 95px;
   margin: 0;
 }
-h3 {
+.h3poster {
   text-align: center;
   color: rgb(255, 255, 255);
   color: #fff;
@@ -38,4 +43,50 @@ h3 {
   font-weight: 600;
   line-height: 45px;
   margin-bottom: 10px;
+}
+
+/* Discount Section */
+
+.discount {
+  margin-top: 2rem;
+  max-width: 60%;
+  max-height: 0px;
+  padding: 300px 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.primaryColor {
+  color: rgb(255, 10, 10);
+}
+.dHead {
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.dDiscription {
+  margin: 0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.dCategory {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
 }
